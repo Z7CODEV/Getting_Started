@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+:root {
+    --cor0: #7e0075;
+    --cor1: #4e4e4e;
+    --cor2: #f7f7f7;
+    --cor3: #35d679;
+    --cor4: #8982D1;
+    --cor5: #AB1AEE;
+    --cor6: #6c1097;
+    --cor7: #6a477a;
+    --cor8: #ebe3f0;
+    --cor9: #81ccf8;
+
+    --font-padrao: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --font-destaque: 'Inter', sans-serif;
+    --font-android: 'Android', cursive; 
+}
+
+nav {
+    background-image: linear-gradient(to right, var(--cor0), var(--cor5));
+    min-height: 40px;
+}
+
+nav div {
+    min-width: 300px;
+    max-width: 1040px;
+    background-color: var(--cor5);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.267);
+    margin: auto;    
+}
+
+nav div ul {
+    min-width: 300px;
+    max-width: 1030px;
+    background-color: var(--cor5);
+    margin:auto;
+}
+
+#navbar ul {   
+    list-style: none;
+}
+
+#navbar ul li {
+    display: inline;
+}
+
+#navbar ul li a {
+    font-size: 1.2em;
+    padding: 10px;
+    display: inline-block;
+    color: var(--cor2);
+    text-decoration: none;    
+}
+
+#navbar ul li a:hover {
+    background-color: var(--cor0);
+}
+

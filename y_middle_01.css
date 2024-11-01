@@ -1,0 +1,69 @@
+@charset "UTF-8";
+
+:root {
+    --cor0: #7e0075;
+    --cor1: #4e4e4e;
+    --cor2: #f7f7f7;
+    --cor3: #35d679;
+    --cor4: #8982D1;
+    --cor5: #AB1AEE;
+    --cor6: #6c1097;
+    --cor7: #6a477a;
+    --cor8: #ebe3f0;
+    --cor9: #81ccf8;
+
+    --font-padrao: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --font-destaque: 'Inter', sans-serif;
+    --font-android: 'Android', cursive; 
+}
+
+main {
+    background-color: var(--cor2);
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.227);
+    border-top-right-radius: 0px;
+}
+
+main h2 {
+    color: var(--cor3);
+    font-family: var(--font-android);
+    font-weight: lighter;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
+    padding-left: 15px;
+}
+
+main p {
+    margin: 15px 0px 15px 0px;
+    padding: 0px 25px 0px 15px;
+    text-align: justify;
+    text-indent: 0px; /* Tabulação de início de parágrafo */
+    font-size: 18px;
+    line-height: 1.5; /* Espaçamento entre as linhas do texto */
+}
+
+main img {
+    width: 100%;    
+}
+
+main img.small {
+    max-width: 350px;
+    display: block; /* torna a imagem reconhecida como bloco */
+    margin: auto;
+}
+
+main a {
+    text-decoration: none;
+    color: var(--cor5);
+    font-weight: bold;    
+    padding: 0px 3px 0px 3px;
+}
+
+main a:hover {
+    text-decoration: underline;
+    color: var(--cor3);
+    background-color: var(--cor8);
+    border-radius: 7px 7px 0px 0px;
+}

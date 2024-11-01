@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+:root {
+    --cor0: #7e0075;
+    --cor1: #4e4e4e;
+    --cor2: #f7f7f7;
+    --cor3: #35d679;
+    --cor4: #8982D1;
+    --cor5: #AB1AEE;
+    --cor6: #6c1097;
+    --cor7: #6a477a;
+    --cor8: #ebe3f0;
+    --cor9: #81ccf8;
+
+    --font-padrao: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --font-destaque: 'Inter', sans-serif;
+    --font-android: 'Android', cursive; 
+}
+
+aside {
+    background-color: var(--cor3);
+    padding: 10px;
+    border-top-right-radius: 0px;
+}
+
+aside > h3 {
+    background-color: var(--cor8);
+    padding: 10px 0px 10px 30px;
+    margin: -10px -10px 0px -10px;
+    border-top-right-radius: 0px;
+}
+
+aside > p {
+    padding: 0px 25px 0px 25px;
+    text-indent: 0px;
+}
+
+aside > ul {
+    list-style-position: inside;
+    columns: 1;
+}
+
+li {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+abbr {
+    text-decoration: none;
+    border-bottom: 1px dotted #000000;
+}

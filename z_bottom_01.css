@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+:root {
+    --cor0: #7e0075;
+    --cor1: #4e4e4e;
+    --cor2: #f7f7f7;
+    --cor3: #35d679;
+    --cor4: #8982D1;
+    --cor5: #AB1AEE;
+    --cor6: #6c1097;
+    --cor7: #6a477a;
+    --cor8: #ebe3f0;
+    --cor9: #81ccf8;
+
+    --font-padrao: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --font-destaque: 'Inter', sans-serif;
+    --font-android: 'Android', cursive; 
+}
+
+footer {
+    background-color: var(--cor0);
+    color: var(--cor2);
+    text-align: center;
+    font-size: 0.8em;
+    font-weight: 100;
+    min-height: 50px;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.250);
+}
+
+footer > a {
+    text-decoration: none;
+    color: var(--cor2);
+    font-weight: 600;
+}
+
+footer > a:hover {
+    text-decoration: underline;
+}

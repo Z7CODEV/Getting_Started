@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+:root {
+    --cor0: #7e0075;
+    --cor1: #4e4e4e;
+    --cor2: #f7f7f7;
+    --cor3: #35d679;
+    --cor4: #8982D1;
+    --cor5: #AB1AEE;
+    --cor6: #6c1097;
+    --cor7: #6a477a;
+    --cor8: #ebe3f0;
+    --cor9: #81ccf8;
+
+    --font-padrao: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --font-destaque: 'Inter', sans-serif;
+    --font-android: 'Android', cursive; 
+}
+
+header {
+    background-image: linear-gradient(to right, var(--cor0), var(--cor5));
+    min-height: 135px;
+    font-family: var(--font-destaque);    
+    color: var(--cor2);
+}
+
+header div {
+    min-width: 300px;
+    max-width: 1040px;
+    min-height: 135px;
+    background-color: transparent;
+    margin: auto;
+}
+
+header h1 {    
+    font-size: 55px;
+    text-shadow: 5px 5px 0px rgba(0, 0, 0, 0.267);
+    display: inline;
+    padding: 10px 0px 0px 30px;
+}
+
+header h1 a {
+    text-decoration: none;
+    color: var(--cor2);
+}
+
+header span {
+    font-size: 70px;
+}
+
+header p {
+    font-size: 18px;
+    color: #ffa2fa;
+    text-shadow: 5px 5px 0px rgba(0, 0, 0, 0.267);
+    margin-top: 10px;
+    padding-left: 20px;
+}

@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+/* Font incorporada (embedding) através de um documento eletrônico, url externa */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* Font baixada e linkada através de url local */
+@font-face {
+    font-family: 'Android';
+    src: url('fontes/zeroes.ttf') format('opentype');
+    font-weight: normal;
+}
+
+:root {
+    --cor0: #7e0075;
+    --cor1: #4e4e4e;
+    --cor2: #f7f7f7;
+    --cor3: #35d679;
+    --cor4: #8982D1;
+    --cor5: #AB1AEE;
+    --cor6: #6c1097;
+    --cor7: #6a477a;
+    --cor8: #ebe3f0;
+    --cor9: #81ccf8;
+
+    --font-padrao: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --font-destaque: 'Inter', sans-serif;
+    --font-android: 'Android', cursive; 
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {    
+    background-color:var(--cor8);
+    font-family: var(--font-padrao);
+    color: var(--cor1);
+}
+
+a.external::after {
+    content: '\1F86D'; /* Caso precise de espaço antes ou depois do emoji, usar o código \00A0 */
+}
+
+div.video {
+    background-color: var(--cor5);
+    margin: 0px -20px 30px -20px;
+    padding: 20px;    
+    position: relative; /* posicionamento com relação ao que define o CSS através do valores inseridos */
+    padding-bottom: 50%; /* o uso de porcentual ajuda na responsividade */
+}
+
+div.video > iframe {
+    position: absolute; /* posição do iframe com relação à sua inserção no HTML */
+    width: 90%;
+    top: 5%;
+    height: 90%;
+    left: 5%; /* esses 5% à esquerda do posicionamento absoluto, somados com os 90% da largura e com 5% restantes da direita, teremos a totalização dos 100% da div - O mesmo se aplica à altura: 5% do topo, 90% da altura e 5% da base*/
+}
+
+
+
+
